@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C639D16A-6D16-413F-95D7-4AF6D327250E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pleo Teao</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87C4E4FF7E518CD02794EE10BFEF865664E3069F</key>
+		<string>https://github.com/junctionseven/Pleo-Teao.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pleo Teao.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87C4E4FF7E518CD02794EE10BFEF865664E3069F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/junctionseven/Pleo-Teao.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87C4E4FF7E518CD02794EE10BFEF865664E3069F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87C4E4FF7E518CD02794EE10BFEF865664E3069F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pleo%20Teao</string>
+		</dict>
+	</array>
+</dict>
+</plist>
