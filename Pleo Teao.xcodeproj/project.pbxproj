@@ -13,6 +13,12 @@
 		E4091AB31A1FA395008B1C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4091AB21A1FA395008B1C6B /* Images.xcassets */; };
 		E4091AB61A1FA395008B1C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4091AB41A1FA395008B1C6B /* Main.storyboard */; };
 		E4091AC21A1FA395008B1C6B /* Pleo_TeaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091AC11A1FA395008B1C6B /* Pleo_TeaoTests.m */; };
+		E42D90B21A1FADF5006CF160 /* JSPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42D90B11A1FADF5006CF160 /* JSPlayViewController.m */; };
+		E42D90BB1A1FAE2C006CF160 /* JSPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42D90BA1A1FAE2C006CF160 /* JSPlayersViewController.m */; };
+		E484B6221A2DDB8300E3861C /* JSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E484B6211A2DDB8300E3861C /* JSFileManager.m */; };
+		E4A1AEF21A293CDF00E07B28 /* JSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A1AEF11A293CDF00E07B28 /* JSPlayer.m */; };
+		E4A615BA1A2B667500F72B06 /* bing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E4A615B91A2B667500F72B06 /* bing.m4a */; };
+		E4A615BE1A2B704000F72B06 /* JSRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A615BD1A2B704000F72B06 /* JSRecordsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,17 @@
 		E4091ABB1A1FA395008B1C6B /* Pleo TeaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pleo TeaoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4091AC01A1FA395008B1C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4091AC11A1FA395008B1C6B /* Pleo_TeaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pleo_TeaoTests.m; sourceTree = "<group>"; };
+		E42D90B01A1FADF5006CF160 /* JSPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayViewController.h; sourceTree = "<group>"; };
+		E42D90B11A1FADF5006CF160 /* JSPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayViewController.m; sourceTree = "<group>"; };
+		E42D90B91A1FAE2C006CF160 /* JSPlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayersViewController.h; sourceTree = "<group>"; };
+		E42D90BA1A1FAE2C006CF160 /* JSPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayersViewController.m; sourceTree = "<group>"; };
+		E484B6201A2DDB8300E3861C /* JSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFileManager.h; sourceTree = "<group>"; };
+		E484B6211A2DDB8300E3861C /* JSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFileManager.m; sourceTree = "<group>"; };
+		E4A1AEF01A293CDF00E07B28 /* JSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPlayer.h; sourceTree = "<group>"; };
+		E4A1AEF11A293CDF00E07B28 /* JSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPlayer.m; sourceTree = "<group>"; };
+		E4A615B91A2B667500F72B06 /* bing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bing.m4a; sourceTree = "<group>"; };
+		E4A615BC1A2B704000F72B06 /* JSRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRecordsViewController.h; sourceTree = "<group>"; };
+		E4A615BD1A2B704000F72B06 /* JSRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRecordsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +96,21 @@
 		E4091AA71A1FA395008B1C6B /* Pleo Teao */ = {
 			isa = PBXGroup;
 			children = (
+				E4A615BB1A2B702C00F72B06 /* Records */,
+				E42D90B31A1FAE02006CF160 /* Players */,
+				E42D90AF1A1FADC1006CF160 /* Play */,
 				E4091AAA1A1FA395008B1C6B /* AppDelegate.h */,
 				E4091AAB1A1FA395008B1C6B /* AppDelegate.m */,
 				E4091AAF1A1FA395008B1C6B /* ViewController.h */,
+				E4A615B91A2B667500F72B06 /* bing.m4a */,
 				E4091AB01A1FA395008B1C6B /* ViewController.m */,
 				E4091AB21A1FA395008B1C6B /* Images.xcassets */,
 				E4091AB41A1FA395008B1C6B /* Main.storyboard */,
 				E4091AA81A1FA395008B1C6B /* Supporting Files */,
+				E4A1AEF01A293CDF00E07B28 /* JSPlayer.h */,
+				E4A1AEF11A293CDF00E07B28 /* JSPlayer.m */,
+				E484B6201A2DDB8300E3861C /* JSFileManager.h */,
+				E484B6211A2DDB8300E3861C /* JSFileManager.m */,
 			);
 			path = "Pleo Teao";
 			sourceTree = "<group>";
@@ -114,6 +139,33 @@
 				E4091AC01A1FA395008B1C6B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E42D90AF1A1FADC1006CF160 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				E42D90B01A1FADF5006CF160 /* JSPlayViewController.h */,
+				E42D90B11A1FADF5006CF160 /* JSPlayViewController.m */,
+			);
+			name = Play;
+			sourceTree = "<group>";
+		};
+		E42D90B31A1FAE02006CF160 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				E42D90B91A1FAE2C006CF160 /* JSPlayersViewController.h */,
+				E42D90BA1A1FAE2C006CF160 /* JSPlayersViewController.m */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		E4A615BB1A2B702C00F72B06 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				E4A615BC1A2B704000F72B06 /* JSRecordsViewController.h */,
+				E4A615BD1A2B704000F72B06 /* JSRecordsViewController.m */,
+			);
+			name = Records;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4091AB31A1FA395008B1C6B /* Images.xcassets in Resources */,
+				E4A615BA1A2B667500F72B06 /* bing.m4a in Resources */,
 				E4091AB61A1FA395008B1C6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4091AB11A1FA395008B1C6B /* ViewController.m in Sources */,
+				E42D90BB1A1FAE2C006CF160 /* JSPlayersViewController.m in Sources */,
+				E484B6221A2DDB8300E3861C /* JSFileManager.m in Sources */,
 				E4091AAE1A1FA395008B1C6B /* main.m in Sources */,
 				E4091AAC1A1FA395008B1C6B /* AppDelegate.m in Sources */,
+				E4A615BE1A2B704000F72B06 /* JSRecordsViewController.m in Sources */,
+				E42D90B21A1FADF5006CF160 /* JSPlayViewController.m in Sources */,
+				E4A1AEF21A293CDF00E07B28 /* JSPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +462,7 @@
 				E4091AC71A1FA395008B1C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4091AC81A1FA395008B1C6B /* Build configuration list for PBXNativeTarget "Pleo TeaoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +471,7 @@
 				E4091ACA1A1FA395008B1C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
